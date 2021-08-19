@@ -9,6 +9,10 @@
     <color name="colorSecondary">#b0ff57</color>
     <color name="colorSecondaryVariant">#76ff03</color>
     <color name="colorOnSecondary">#32cb00</color>
-
+    <color name="editText_textColorHint">#FFFFFF</color>
+    <color name="editText_textColorPrimery">#FFFFFF</color>
+    <color name="editText_colorControlNormal">#FFFFFF</color>
+    <color name="editText_colorControlActivated">#FFFFFF</color>
+    <color name="button_textColor">#FFFFFF</color>
 
 </resources>
