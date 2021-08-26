@@ -6,6 +6,9 @@
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!--otro thema-->
+    <style name="Theme.ArMyWhy.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.ArMyWhy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
     <style name="EditTextWhite" parent="Theme.AppCompat.Light">
 
