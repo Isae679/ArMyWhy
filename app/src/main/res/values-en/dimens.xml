@@ -3,4 +3,5 @@
     <dimen name="padding_cardview">10dp</dimen>
     <dimen name="margin_paddingBottom_container">10dp</dimen>
     <dimen name="margin_fab">30dp</dimen>
+    <dimen name="padding_card">10dp</dimen>
 </resources>

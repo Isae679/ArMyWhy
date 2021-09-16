@@ -14,4 +14,5 @@
     <dimen name="margin_paddingBottom_container">10dp</dimen>
     <dimen name="heigth_bottom_navigation_view">70dp</dimen>
     <dimen name="margin_fab">20dp</dimen>
+    <dimen name="padding_card">10dp</dimen>
 </resources>
