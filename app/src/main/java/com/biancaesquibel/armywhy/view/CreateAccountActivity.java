@@ -1,9 +1,11 @@
-package com.biancaesquibel.armywhy;
+package com.biancaesquibel.armywhy.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+
+import com.biancaesquibel.armywhy.R;
 
 public class CreateAccountActivity extends AppCompatActivity {
 

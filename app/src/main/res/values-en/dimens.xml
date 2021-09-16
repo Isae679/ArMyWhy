@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="padding_cardview">10dp</dimen>
+    <dimen name="margin_paddingBottom_container">10dp</dimen>
+    <dimen name="margin_fab">30dp</dimen>
 </resources>

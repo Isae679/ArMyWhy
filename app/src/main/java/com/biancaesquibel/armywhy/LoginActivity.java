@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.biancaesquibel.armywhy.view.ContainerActivity;
+import com.biancaesquibel.armywhy.view.CreateAccountActivity;
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -19,4 +22,9 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+
+    public void login(View view) {
+        Intent intent = new Intent(this, ContainerActivity.class);
+        startActivity(intent);
+    }
 }

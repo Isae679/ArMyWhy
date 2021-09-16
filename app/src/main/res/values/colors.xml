@@ -19,5 +19,6 @@
     <color name="textView_textColor">#FFFFFF</color>
     <color name="background_cardview">#33000000</color>
  <color name="textcolor_white">#FFFFFF</color>
+    <color name="item_white">#FFFFFF</color>
 
 </resources>
