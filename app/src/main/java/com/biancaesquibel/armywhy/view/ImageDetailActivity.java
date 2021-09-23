@@ -7,20 +7,17 @@ import android.os.Bundle;
 
 import com.biancaesquibel.armywhy.R;
 
-import static com.biancaesquibel.armywhy.R.id.toolbar;
-
-public class CreateAccountActivity extends AppCompatActivity {
+public class ImageDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_account);
+        setContentView(R.layout.activity_image_detail);
 
-        showToolBar(getString(R.string.title_crear_cuenta),true);
-
+        showToolBar("",true);
     }
     public void showToolBar(String titulo, boolean botonSubir){
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar_image_detail);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setTitle(titulo);

@@ -1,6 +1,7 @@
 package com.biancaesquibel.armywhy.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.biancaesquibel.armywhy.R;
 import com.biancaesquibel.armywhy.model.Image;
+import com.biancaesquibel.armywhy.view.ImageDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -49,7 +51,14 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.CardVi
         holder.cantidadDiasCardView.setText(image.getCantidadDias());
         holder.cantidadMeGustaCardView.setText(image.getCantidadMeGusta());
 
-
+        //oncliklistener
+        holder.imageCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new  Intent(activity, ImageDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
     }
 
     @Override
