@@ -103,16 +103,16 @@ public class HomeFragment extends Fragment {
     public ArrayList<Image> buidImages(){
         ArrayList<Image> images = new  ArrayList<>();
 
-        images.add(new Image("","kevin Salazar", "2 dias", "1 me gusta"));
-        images.add(new Image("","Luis Peres", "3 dias", "5 me gusta"));
-        images.add(new Image("","Fernando Torrico", "6 dias", "4 me gusta"));
-        images.add(new Image("","Nicol Mendoza", "5 dias", "7 me gusta"));
-        images.add(new Image("","Alexander Lara", "3 dias", "3 me gusta"));
-        images.add(new Image("","Maissel Valdivia", "4 dias", "9 me gusta"));
-        images.add(new Image("","William Jimenez", "2 dias", "6 me gusta"));
-        images.add(new Image("","Roberta Montaño", "2 dias", "2 me gusta"));
-        images.add(new Image("","Vivia Ledezma", "6 dias", "3 me gusta"));
-        images.add(new Image("","Rafael Rojas", "5 dias", "1 me gusta"));
+        images.add(new Image("https://boliviatravelsite.com/Images/Attractionphotos/incachaca-004.jpg","kevin Salazar", "2 dias", "1 me gusta"));
+        images.add(new Image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Cristo_de_La_Concordia_de_Cochabamba.jpg/800px-Cristo_de_La_Concordia_de_Cochabamba.jpg","Luis Peres", "3 dias", "5 me gusta"));
+        images.add(new Image("https://media-cdn.tripadvisor.com/media/photo-s/0e/1b/f4/2a/fuerte-de-samaipata.jpg","Fernando Torrico", "6 dias", "4 me gusta"));
+        images.add(new Image("https://i.pinimg.com/originals/b5/e4/a0/b5e4a018a916b51ee5fa35f30776348a.jpg","Nicol Mendoza", "5 dias", "7 me gusta"));
+        images.add(new Image("https://media.iatiseguros.com/wp-content/uploads/2019/07/04011702/visitar-salar-uyuni-4.jpg","Alexander Lara", "3 dias", "3 me gusta"));
+        images.add(new Image("https://chullostravelperu.com/wp-content/uploads/2021/04/Laguna-Colorada-Salar-de-Uyuni.jpg","Maissel Valdivia", "4 dias", "9 me gusta"));
+        images.add(new Image("https://laicismo.org/wp-content/uploads/2017/02/Monumento-Virgen-de-Socavon-en-Oruro-Bolivia.jpg","William Jimenez", "2 dias", "6 me gusta"));
+        images.add(new Image("https://www.ibolivia.org/wp-content/uploads/2018/10/castillo-de-la-glorieta.jpg","Roberta Montaño", "2 dias", "2 me gusta"));
+        images.add(new Image("https://cdn.bolivia.com/sdi/2017/12/15/el-parque-nacional-tunari-sera-sometido-una-campana-de-reforestacion-591725.jpg","Vivian Ledezma", "6 dias", "3 me gusta"));
+        images.add(new Image("https://imgs-akamai.mnstatic.com/ab/d0/abd0efc0216af826cc5cff7fe14e50e5.jpg?quality=75&format=pjpg&fit=bounds&width=980&height=880","Rafael Rojas", "5 dias", "1 me gusta"));
 
 
         return images;
