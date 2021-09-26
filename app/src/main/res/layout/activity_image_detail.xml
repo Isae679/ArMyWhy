@@ -70,7 +70,8 @@
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:textSize="@dimen/textSize_megusta_image_detail"
-                  android:text="@string/text_cantidad_megusta_image_detail"/>
+                  android:text="@string/text_cantidad_megusta_image_detail"
+                  android:paddingLeft="@dimen/padding_card" />
               <TextView
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
